@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,21 +14,6 @@ namespace HW_3_4
 
         public OneArray(IProvider<T> provider, bool B) : base(provider, B){ }
 
-
-        /*
-         public override void Fill(bool B)
-        {
-            if (B)
-            {
-                FillByUser();
-            }
-            else
-            {
-                RandFill();
-            }
-
-        }
-        */
 
         protected override void FillByUser()
         {
