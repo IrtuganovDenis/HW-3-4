@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace HW_3_4
         Random rnd = new Random();
         public double Rand()
         {
-            return rnd.NextDouble() + rnd.Next(0, 1000);
+            return Math.Round(rnd.NextDouble(), 3) + rnd.Next(0, 1000);
         }
 
         public double ByUser()
