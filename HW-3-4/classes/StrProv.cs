@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -14,10 +14,10 @@ namespace HW_3_4
         {
             string s = "";
             string abs = "abcdefghijklmnopqrstuvwxyz";
-            int n = rnd.Next(1, 100);
+            int n = rnd.Next(1, 10);
             for (int i = 0; i < n; i++)
             {
-                s += abs[rnd.Next(27)];
+                s += abs[rnd.Next(26)];
             }
             return s;
         }
